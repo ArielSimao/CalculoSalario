@@ -1,0 +1,14 @@
+c:\users\carlos\documents\visual studio 2015\Projects\CalculoSalario\CalculoSalario\bin\Debug\CalculoSalario.exe.config
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\bin\Debug\CalculoSalario.exe
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\bin\Debug\CalculoSalario.pdb
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario.csprojResolveAssemblyReference.cache
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\MainWindow.g.cs
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\App.g.cs
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario_MarkupCompile.cache
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario_MarkupCompile.lref
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\MainWindow.baml
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario.g.resources
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario.Properties.Resources.resources
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario.csproj.GenerateResource.Cache
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario.exe
+C:\Users\carlos\Documents\Visual Studio 2015\Projects\CalculoSalario\CalculoSalario\obj\Debug\CalculoSalario.pdb

@@ -1,0 +1,35 @@
+﻿<Window x:Class="CalculoSalario.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculoSalario"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="813">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="Adicionais" HorizontalAlignment="Left" Margin="52,143,0,0" VerticalAlignment="Top" Height="111" Width="187">
+            <Grid HorizontalAlignment="Left" Height="83" Margin="4,7,0,-1" VerticalAlignment="Top" Width="163">
+                <RadioButton x:Name="rbComissao" Content="Comissão 1% sal bruto" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="rbCusto" Content="Ajuda de custo R$200" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <Label x:Name="label" Content="Calculo de Salário Líquido" HorizontalAlignment="Left" Margin="256,10,0,0" VerticalAlignment="Top" FontSize="17" FontWeight="Bold"/>
+        <Label x:Name="label1" Content="Funcionário" HorizontalAlignment="Left" Margin="45,51,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Sálario Bruto" HorizontalAlignment="Left" Margin="45,97,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFuncionario" HorizontalAlignment="Left" Height="23" Margin="128,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <TextBox x:Name="txtSalario" HorizontalAlignment="Left" Height="23" Margin="128,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <GroupBox x:Name="groupBox1" Header="Descontos&#xD;&#xA;" HorizontalAlignment="Left" Margin="245,139,0,0" VerticalAlignment="Top" Height="115" Width="206">
+            <Grid HorizontalAlignment="Left" Height="84" Margin="4,-10,-2,-1" VerticalAlignment="Top" Width="192">
+                <CheckBox x:Name="cbVale" Content="Vale Transporte R$200" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <CheckBox x:Name="cbImposto" Content="Imposto 3% do sal bruto" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="471,68,0,0" VerticalAlignment="Top" Height="186" Width="313"/>
+        <Label x:Name="label3" Content="Lista de Funcionários" HorizontalAlignment="Left" Margin="525,43,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Cadastrar" HorizontalAlignment="Left" Margin="471,273,0,0" VerticalAlignment="Top" Width="95" Height="26" Click="button_Click"/>
+        <Button x:Name="button1" Content="Sair" HorizontalAlignment="Left" Margin="566,273,0,0" VerticalAlignment="Top" Width="95" Height="26" Click="button1_Click"/>
+        <Label x:Name="label4" Content="Sálario Fixo:" HorizontalAlignment="Left" Margin="52,273,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSalarioFixo" HorizontalAlignment="Left" Height="23" Margin="128,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <Button x:Name="btnLimpar" Content="Limpar Salario Fixo" HorizontalAlignment="Left" Margin="661,273,0,0" VerticalAlignment="Top" Width="123" Height="26" Click="btnLimpar_Click"/>
+    </Grid>
+</Window>
